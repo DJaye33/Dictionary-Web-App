@@ -43,7 +43,7 @@ export default function Example() {
                     key={person.id}
                     className={({ active }) =>
                       classNames(
-                        active ? "bg-purple-600 text-white" : "text-gray-900",
+                        active ? "bg-purple-500 text-white" : "text-gray-900",
                         "relative cursor-default select-none py-2 pl-3 pr-9"
                       )
                     }
@@ -63,7 +63,7 @@ export default function Example() {
                         {selected ? (
                           <span
                             className={classNames(
-                              active ? "text-white" : "text-purple-600",
+                              active ? "text-white" : "text-purple-500",
                               "absolute inset-y-0 right-0 flex items-center pr-4"
                             )}
                           >

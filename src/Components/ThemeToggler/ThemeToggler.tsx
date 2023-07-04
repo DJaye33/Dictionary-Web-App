@@ -14,7 +14,7 @@ export default function Example() {
         checked={enabled}
         onChange={setEnabled}
         className={classNames(
-          enabled ? "bg-purple-600" : "bg-neutral-500",
+          enabled ? "bg-purple-500" : "bg-neutral-500",
           "relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out"
         )}
       >
