@@ -1,5 +1,6 @@
 import Search from "../Search/Search";
 import Definition from "../Definition/Definition";
+import ContentDivder from "../ContentDivider/ContentDivder";
 
 const AppMain = () => {
   return (
@@ -10,9 +11,9 @@ const AppMain = () => {
       <div className="md:py-1">
         <Definition />
       </div>
-      <div className="px-4 py-4 sm:px-6">
-        {/* Content goes here */}
-        {/* We use less vertical padding on card footers at all sizes than on headers or body sections */}
+      <div className="md:py-4">
+        <ContentDivder partOfSpeech="noun" />
+        <ContentDivder partOfSpeech="verb" />
       </div>
     </main>
   );
