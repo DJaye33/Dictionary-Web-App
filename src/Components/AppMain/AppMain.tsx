@@ -2,8 +2,8 @@ import Search from "../Search/Search";
 
 const AppMain = () => {
   return (
-    <main className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow">
-      <section className="px-4 py-5 sm:px-6">
+    <main className="overflow-hidden bg-white">
+      <section className="py-5">
         <Search />
       </section>
       <div className="px-4 py-5 sm:p-6">{/* Content goes here */}</div>
