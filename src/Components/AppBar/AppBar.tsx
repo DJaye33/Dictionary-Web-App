@@ -3,7 +3,7 @@ import ThemeToggler from "../ThemeToggler/ThemeToggler";
 
 const AppBar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <header className="flex justify-between items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -20,13 +20,13 @@ const AppBar = () => {
       </svg>
 
       {/* Right AppBar Group */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center min-w-[250px]">
         <CustomSelect />
         {/* Simple Divider */}
-        <div className="w-[1px] bg-slate-400"></div>
+        <div className="w-[1px] h-[36px] bg-slate-300"></div>
         <ThemeToggler />
       </div>
-    </div>
+    </header>
   );
 };
 
